@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Course Registration Portal</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Student Course Registration Portal</h1>
+    </div>
+
+    <div class="student-name">
+        <p>Student Name</p>
+    </div>
+<div class="register-form">
+        <h2>Register Courses</h2>
+
+        <form action="#" method="post">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" required>
+
+            <label for="level">Level:</label>
+            <select id="level" name="level" required>
+              <label for="department">Department:</label>
+              <input type="text" id="department" name="department" required>
+  
+              <label for="level">Level:</label>
+              <select id="level" name="level" required>
+                  <option value="400">400</option>
+                  <option value="300">300</option>
+                  <option value="200">200</option>
+                  <option value="100">100</option>
+              </select>
+  
+              <label>Courses:</label>
+              <div class="courses">
+                  <label><input type="checkbox" name="courses" value="Math 101"> Math 101</label>
+                  <label><input type="checkbox" name="courses" value="CS 102"> CS 102</label>
+                  <label><input type="checkbox" name="courses" value="ENG 103"> ENG 103</label>
+              </div>  
+              <button type="submit">Register</button>
+          </form>
+      </div>
+      <div class="container">
+        <h2>Registered Courses</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Course Code</th>
+              <th>Course Title</th>
+              <th>Unit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>CS102</td>
+              <td>Intro to Computer Science</td>
+              <td>3</td>
+            </tr>
+            <td>MTH101</td>
+            <td>Mathematics for Computing</td>
+            <td>3</td>
+          </tbody>
+        </table>
+      </div>
+  </body>
+  </html>
